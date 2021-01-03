@@ -15,7 +15,6 @@ public class 1330 {
 			System.out.println("<");
 		else
 			System.out.println("==");
-			
 		
 		scanner.close();
 	}
