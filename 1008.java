@@ -9,7 +9,6 @@ public class JAVA {
 		b = scanner.nextInt();
 
 		System.out.println(a/b);
-
 		scanner.close();
 	}
 }
