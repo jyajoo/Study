@@ -1,4 +1,4 @@
-#단어 찾기
+#단어 공부
 
 word = input().upper()
 
