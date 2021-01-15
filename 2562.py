@@ -1,3 +1,4 @@
+#최댓값
 num = []
 for i in range(9): #0 ~ 8
     a = input() #입력 받기
@@ -13,3 +14,14 @@ for j in range(9):
 
 print(max)
 print(max_number)
+
+#############################################
+#최댓값_2
+
+num = []
+for i in range(9):
+    a = int(input())
+    num.append(a)
+
+print(max(num))
+print(num.index(max(num))+1)
