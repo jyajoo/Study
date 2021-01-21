@@ -13,4 +13,4 @@ for i in range(3):
     if b.count(b[i]) == 1:
         y = b[i]
 
-print("%d %d"%(x,y))
+print(x,y)
