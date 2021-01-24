@@ -1,10 +1,8 @@
 #수 정렬하기
 
 n = int(input())
-arr = []
-
-for i in range(n):
-    arr.append(i)
-
-arr.sort()
-print(arr)
+num = []
+for _ in range(n):
+    num.append(int(input()))
+num.sort()
+print(*num, sep = "\n")
