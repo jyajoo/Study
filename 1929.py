@@ -22,7 +22,7 @@ for i in arr:
 def isprime(num):
     if num == 1:
         return False
-    else:
+    else: #else안에 안넣어줘도 됨.
         for i in range(2, int(num**0.5)+1):
             if num % i == 0:
                 return False
