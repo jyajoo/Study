@@ -8,7 +8,7 @@ for i in range(2, N+1):  # 2부터 N까지 반복
     dp[i] = dp[i-1] + 1  # 3번 연산
     if i % 2 == 0 and dp[i] > dp[i//2] + 1:  # 3번보다 2번이 더 작은 경우
         dp[i] = dp[i//2] + 1
-    elif i % 3 == 0 and dp[i] > dp[i//3] + 1:  # 3번보다 1번이 더 작은 경우
+    if i % 3 == 0 and dp[i] > dp[i//3] + 1:  # 3번보다 1번이 더 작은 경우
         dp[i] = dp[i//3] + 1
 
 print(dp[N])
