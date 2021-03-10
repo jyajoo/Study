@@ -14,7 +14,7 @@ def DFS(start):
     visited[start] = True
     print(start, end=" ")
     for i in range(1, n+1):  # 1부터 n까지 검사
-        if visited[i] == 0 and graph[start][i] == 1:  # 방문을 하지 않았고, 간선이 있는 곳
+        if not visited[i] and graph[start][i] == 1:  # 방문을 하지 않았고, 간선이 있는 곳
             DFS(i)
 
 
@@ -25,9 +25,9 @@ def BFS(start):
         start = queue.pop(0)
         print(start, end=" ")
         for i in range(1, n+1):
-            if visited[i] == 1 and graph[start][i] == 1:
+            if visited[i] and graph[start][i] == 1:
                 queue.append(i)
-                visited[i] = 0
+                visited[i] = False
 
 
 DFS(v)
