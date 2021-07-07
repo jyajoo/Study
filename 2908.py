@@ -1,4 +1,4 @@
-#상수
+# 상수
 
 a, b = input().split(' ')
 
@@ -21,10 +21,23 @@ num2 = int(num2)
 print(max(num1, num2))
 
 #################################################
-#상수_2
+# 상수_2
 a, b = input().split(' ')
 
 num1 = int("".join(i for i in a[::-1]))
 num2 = int("".join(i for i in b[::-1]))
 
 print(max(num1, num2))
+
+#################################################
+# 상수_3
+a, b = input().split()
+
+a = int(a[::-1])
+b = int(b[::-1])
+
+# if a < b:
+#     print(b)
+# else:
+#     print(a)
+print(max(a, b))
