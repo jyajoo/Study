@@ -1,9 +1,9 @@
-#벌집
+# 벌집
 
 n = int(input())
 
 i = 1
-x = 2 
+x = 2
 y = 8
 while True:
     if n == 1:
@@ -13,13 +13,13 @@ while True:
         cnt = i + 1
         break
     i += 1
-    x = y 
+    x = y
     y = (6 * i) + x
 
 print(cnt)
 
-######################################3
-#벌집_2
+######################################
+# 벌집_2
 
 n = int(input())
 
@@ -31,3 +31,14 @@ while n > y:
     cnt += 1
 
 print(cnt)
+######################################
+# 벌집_3
+a = int(input())
+cnt = 0
+room = 1
+while True:
+    cnt += 1
+    if room >= a:
+        print(cnt)
+        break
+    room += 6 * cnt
