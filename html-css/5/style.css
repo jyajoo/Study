@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(222, 238, 235);
+}
+
+h2 {
+    background-color: rgb(182, 218, 203);
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+span {
+    background-color: rgb(231, 212, 226);
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: normal;
+}  
+
+h4 {
+font-family: 'Do Hyeon', sans-serif;
+font-weight: 100;
+}
+
+h4 span:nth-child(1) {
+    background-color: rgb(231, 212, 226);
+    font-family: 'Jua', sans-serif;
+}
+
+h4 span:nth-child(2) {
+        background-color: rgb(189, 177, 230);
+    font-family: 'Jua', sans-serif;
+}
