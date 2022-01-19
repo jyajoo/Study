@@ -1,0 +1,89 @@
+body {
+    background-color: #FAEEE0;
+}
+
+.box {
+    margin : 0 15%;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+}
+
+h1 {
+    font-family: 'Yeon Sung', cursive;
+    font-weight: 200;
+    font-size: xx-large;
+    display:inline-block;
+    position: absolute; 
+    top : 50px;
+}
+
+header {
+    height: 150px;
+}
+
+header hr {
+    position: relative;
+    top : -10px;
+    background-color: black;
+    height: 1px;
+    border: 0px;
+}
+
+section {
+    background-color: #F9E4C8;
+    width: 70%;
+    float : right;
+    margin : 0 0 30px;
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 0.7cm;
+}
+
+.a {
+    background-color: #F9CF93;
+    height: 3px;
+    border: 0px;
+    margin : 0;
+}
+
+aside {
+    background-color: #F9E4C8;
+    width: 17%;
+    position : fixed;
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 0.7cm;
+}
+
+article {
+    background-color: #FAEEE0;
+    padding : 5px;
+    border : 5px dashed #F9CF93;
+}
+
+p {
+    margin: 10px;
+}
+
+.first img {
+    width : 60%;
+    height: 60%;
+    display: block;
+    margin :auto;
+}
+
+.first span {
+    font-family: 'Yeon Sung', cursive;
+    display: block;
+    text-align: center;
+}
+
+.second span {
+    background-color: rgb(231, 154, 151);
+    border-radius: 20px;
+}
+
+a {
+    text-decoration-line : none;
+}
