@@ -1,0 +1,174 @@
+body {
+    background-color: bisque;
+}
+
+.dooly {
+    width: 500px;
+    height: 500px;
+    position : relative;
+    margin : 125px auto;
+}
+
+.dooly .face .face1 {
+    background-color: rgb(71, 148, 71);
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    top : 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+.dooly .face .face2 {
+    background-color: rgb(71, 148, 71);
+    width : 500px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top : 75%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.dooly .eyebrow .left {
+    border: 5px solid black;
+    border-radius: 50%;
+    border-bottom: 0;border-left :0;border-right :0;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    left : 30%;
+    top : 20%;
+}
+
+.dooly .eyebrow .right {
+    border: 5px solid black;
+    border-radius: 50%;
+    border-bottom: 0;border-left :0;border-right :0;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    right : 30%;
+    top : 20%;
+}
+
+.dooly .eye .eye-left {
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: white;
+    width : 100px;
+    height : 120px;
+    position: absolute;
+    left : 23%;
+    top : 38%;
+}
+
+.dooly .eye .eye2-left {
+    background-color: black;
+    border-radius: 50%;
+    width : 75px;
+    height : 90px;
+    position :absolute;
+    left : 28%;
+    top : 44%;
+}
+
+.dooly .eye .eye3-left {
+    background-color: white;
+    border-radius: 100%;
+    width : 22px;
+    height: 22px;
+    position :absolute;
+    left : 35%;
+    top : 52%;
+}
+
+.dooly .eye .eye-right {
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: white;
+    width : 100px;
+    height : 120px;
+    position: absolute;
+    right : 23%;
+    top : 38%;
+}
+
+.dooly .eye .eye2-right {
+    background-color: black;
+    border-radius: 50%;
+    width : 75px;
+    height : 90px;
+    position :absolute;
+    right : 28%;
+    top : 44%;
+}
+
+.dooly .eye .eye3-right {
+    background-color: white;
+    border-radius: 100%;
+    width : 22px;
+    height: 22px;
+    position :absolute;
+    right : 35%;
+    top : 52%;
+}
+
+.dooly .nose {
+    border: 2px solid black;
+    background-color: white;
+    width : 75px;
+    height: 65px;
+    border-radius: 50%;
+    position : absolute;
+    left : 50%;
+    top : 65%;
+    transform: translate(-50%);
+}
+
+.dooly .tongue {
+    border: 2px solid black;
+    background-color: pink;
+    border-radius: 0 0 100px 100px;
+    width : 100px;
+    height : 70px;
+    position : absolute;
+    left : 50%;
+    top : 85%;
+    transform: translate(-50%);
+}
+
+.dooly .line1 {
+    border: 5px solid black;
+    border-radius: 50%;
+    border-bottom: 0;border-left :0;border-right :0;
+    width: 90px;
+    height: 40px;
+    position : absolute;
+    left : 5%;
+    top : 10%;
+}
+
+.dooly .line2 {
+    border : 5px solid black;
+    border-radius: 50%;
+    border-bottom: 0;border-left :0;border-right :0;
+    width: 110px;
+    height: 40px;
+    transform: rotate(40deg);
+    position : absolute;
+    left : 5%;
+    top : 2%;
+}
+
+.dooly .line3 {
+    border : 2px solid black;
+    border-bottom: 0;border-top :0;border-right :0;
+    height : 60px;
+    position : absolute;
+    left :50%;
+    top : 86%;
+    transform: translate(-50%);
+}
