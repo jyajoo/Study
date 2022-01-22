@@ -1,18 +1,55 @@
 body {
-    background-color: bisque;
-
+    background-color: #ADC2A9;
+    line-height: 0.7cm;
 }
 
 .box { 
     position : relative;
     margin : 0 30%;
     border-radius: 10%;
+    background-color: #D3E4CD;
+    padding : 3%;
+}
+
+.profile { 
+    width: 80%;
+    margin: 0 auto;
+}
+
+.profile p {
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 30px;
+    text-align: center;
 }
 
 img { 
-    width : 200px;
-    height : 200px;
+    width : 150px;
+    height : 150px;
     border-radius: 50%;
     display: block;
     margin: 0 auto;
+}
+
+.profile2 {
+    border : 5px dashed #99A799;
+    border-radius: 10%;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.profile2 p {
+    font-family: 'Yeon Sung', cursive;
+    margin: 10px;
+    text-align: left;
+}
+
+.profile2 span {
+    font-family: 'Yeon Sung', cursive;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration-line : none;
 }
