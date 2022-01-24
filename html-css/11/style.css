@@ -1,0 +1,15 @@
+.title {
+    background-color: #D3E4CD;
+    border-radius: 2em;
+    padding : 10px;
+}
+
+.box { 
+    position : relative;
+    margin : 3% 35%;
+    padding : 3%;
+    text-align: center;
+    border: 5px dashed  #D3E4CD;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: larger;
+}

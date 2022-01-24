@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap 사용해보기</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
+    </style>
+</head>
+<body>
+    <div class = "box">
+        <p class = "title">&lt;&nbsp;MBTI 구경하기&nbsp;&gt;</p>
+
+        <p>안 맞는 경우가 꽤 있으니, 재미로만 보기👀</p>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                MBTI
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item"
+                        href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-intj" target="_blank">INTJ</a></li>
+                <li><a class="dropdown-item" href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-intp"
+                        target="_blank">INTP</a></li>
+                <li><a class="dropdown-item" href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-entj"
+                        target="_blank">ENTJ</a></li>
+                <li><a class="dropdown-item" href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-entp"
+                        target="_blank">ENTP</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-infj"
+                        target="_blank">INFJ</a></li>
+                <li><a class="dropdown-item" href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-infp"
+                        target="_blank">INFP</a></li>
+                <li><a class="dropdown-item" href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-enfj"
+                        target="_blank">ENFJ</a></li>
+                <li><a class="dropdown-item" href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-enfp"
+                        target="_blank">ENFP</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-istj"
+                        target="_blank">ISTJ</a></li>
+                <li><a class="dropdown-item" href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-isfj"
+                        target="_blank">ISFJ</a></li>
+                <li><a class="dropdown-item" href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-estj"
+                        target="_blank">ESTJ</a></li>
+                <li><a class="dropdown-item" href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-esfj"
+                        target="_blank">ESFJ</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-istp"
+                        target="_blank">ISTP</a></li>
+                <li><a class="dropdown-item" href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-isfp"
+                        target="_blank">ISFP</a></li>
+                <li><a class="dropdown-item" href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-estp"
+                        target="_blank">ESTP</a></li>
+                <li><a class="dropdown-item" href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-esfp"
+                        target="_blank">ESFP</a></li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+
+        <p class = "title">&lt;&nbsp;MBTI 테스트해 보러 가기!&nbsp;&gt;</p>
+
+        <div class="card">
+            <img src="mbti.png" class="card-img-top" alt="MBTI">
+            <div class="card-body">
+                <h5 class="card-title">MBTI 무료 검사</h5>
+                <a href="https://www.16personalities.com/ko/%EB%AC%B4%EB%A3%8C-%EC%84%B1%EA%B2%A9-%EC%9C%A0%ED%98%95-%EA%B2%80%EC%82%AC" class="btn btn-primary" target="_blank">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
