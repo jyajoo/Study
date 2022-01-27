@@ -12,7 +12,6 @@ body {
 .dooly .face .face1 {
     background-color: rgb(71, 148, 71);
     position: absolute;
-    position: absolute;
     left: 50%;
     top : 50%;
     transform: translate(-50%, -50%);
