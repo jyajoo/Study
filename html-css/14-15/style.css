@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(53,54,58);
+}
+
+.main {
+    text-align: center;
+}
+
+.title {
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+    margin: 3%;
+}
+
+.search_box {
+    width: 35em;
+    height: 2.5em;
+    background-color: white;
+    margin : 0 auto;
+    border-radius:  2em;
+}
+
+input {
+    width: 30em;
+    height: 2.3em;
+    font-size : 15px;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration-line : none;
+}
+
+.container {
+    display: flex;
+    padding : 2px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin : 20px;
+}
+
+.item {
+    display: flex;
+    width: 7em;
+    height: 7em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    flex-direction : column;
+}
+
+.item:hover {
+    background-color: rgb(74, 74, 78);
+}
+
+span {
+    color: white;
+    margin : 8px;
+}
+
+.item_img {
+    background-color: rgb(32, 33, 36);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+#magnifying-glass {
+    font-size: 7em;
+    display: inline-block;
+    width: 0.1em;
+    box-sizing: content-box;
+    height: 0.1em;
+    border: 0.025em solid rgb(53,54,58);
+    position: relative;
+    border-radius: 0.35em;
+    }
+    #magnifying-glass:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: -0.085em;
+    bottom: -0.06em;
+    border-width: 0;
+    background: rgb(53,54,58);
+    width: 0.1em;
+    height: 0.03em;
+    transform: rotate(45deg);
+    }
+
+.icon {
+    position: absolute;
+    left : -5%;
+    top : 8%;
+}
