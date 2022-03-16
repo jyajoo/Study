@@ -1,0 +1,73 @@
+body {
+    background: rgb(58, 57, 57);
+}
+
+.title {
+    font-family: 'Jua', sans-serif;
+    color : white;
+    font-weight: bolder;
+    font-size : 80px;
+    text-align: center;
+    padding : 70px;
+    text-shadow: 15px 15px 15px black;
+}
+
+.watch {
+    width: 500px;
+    height: 400px;
+    background: #BCCC9A;
+    border-radius: 1.5em;
+    margin: 0 auto;
+    box-shadow: 10px 10px 1px rgb(103, 139, 106);
+}
+
+.time {
+    background : white;
+    width : 400px;
+    height: 200px;
+    border-radius: 1.5em;
+    border : 3px solid gray;
+    margin : 0 auto;
+    position : relative;
+    top : 30px;
+    box-shadow: 5px 3px 7px inset;
+}
+
+h1 {
+    font-family: 'Jua', sans-serif;
+    font-size : 85px;
+    text-align: center;
+}
+
+.btn {
+    width : 420px;
+    height: 120px;
+    position: relative;
+    top : 50px;
+    margin : 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 125px;
+    height: 80px;
+    border-radius: 1em;
+    background: #D3E4CD; 
+    box-shadow: 7px 6px 4px #a7bb7d;
+    border : 0;
+    margin : 0 auto;
+    color: rgb(47, 82, 71);
+    font-family: 'Jua', sans-serif;
+    font-size: 45px;
+    transition-duration: 0.3s;
+} 
+
+button:active{
+    position: relative;
+	top: 3px;
+	left: 3px;
+	box-shadow: none;
+}
