@@ -1,0 +1,95 @@
+.title {
+    font-family: 'Grechen Fuemen', cursive;
+    color : white;
+    font-size : 40px;
+    margin : 30px;
+}
+
+button {
+    font-family: 'Gothic A1', sans-serif;
+    border: 0;
+    background-color: transparent;
+    color : white;
+    font-size : 20px;
+    margin : 10px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    position: relative;
+    color : rgb(180, 170, 238);
+    font-size : 22px;
+}
+
+body {
+    background : rgba(0, 0, 0, 0.856);
+}
+
+.poster {
+    width : 100vw;
+    max-width : 600px;
+    margin : 20px;
+}
+
+img { border : none; }
+
+section {
+    display : flex;
+    flex-direction: row;
+}
+
+iframe {
+    width : 900px;
+    height: 500px;
+    margin : 20px 100px;
+}
+
+p {
+    margin : 0 100px;
+    font-family: 'Gothic A1', sans-serif;
+    color : white;
+    line-height: 0.7cm;
+}
+
+.movie {
+    font-size : 30px;
+    color : white;
+    margin : 0 100px;
+}
+
+hr {
+    width: 85%;
+    height: 1px;
+    border : 0;
+    border-top : 1px solid rgba(255, 255, 255, 0.418);
+}
+
+aside {
+    position: absolute;
+    left : 90%;
+    bottom: 10%;
+}
+
+.item {
+    display: flex;
+    width: 7em;
+    height: 7em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    flex-direction : column;
+}
+
+.item:hover {
+    background-color: rgba(74, 74, 78, 0.411);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+span {
+    color: white;
+    font-size: 15px;
+}
