@@ -28,6 +28,10 @@
 <img src = "https://user-images.githubusercontent.com/73464584/158540963-aa139a73-4748-4418-ae2d-fc4f0c667cf6.png" width = "60%" height = "60%">
 
 <br>
+
+[[ code ]](https://github.com/jyajoo/Study/tree/main/html-css/2)
+
+<br>
 <br>
 
 ## 유튜브 추천
@@ -45,12 +49,20 @@
 
 <br>
 
+[[ code ]](https://github.com/jyajoo/Study/tree/main/html-css/3)
+
+<br>
+
 - Linking Style Sheet 방법
 - 글씨 굵기, 구글 폰트, 색상 등 적용
 
 <br>
 
 <img src = "https://user-images.githubusercontent.com/73464584/158544303-f9bb8767-1cca-4b72-98ad-dede2688a631.png"  width = "60%" height = "60%">
+
+<br>
+
+[[ code ]](https://github.com/jyajoo/Study/tree/main/html-css/5)
 
 <br>
 <br>
@@ -66,6 +78,10 @@
 <br>
 
 <img src = "https://user-images.githubusercontent.com/73464584/158544607-9adaf2eb-cb95-4629-97af-5a76c8994a28.png" width = "40%" height = "40%">
+
+<br>
+
+[[ code ]](https://github.com/jyajoo/Study/tree/main/html-css/6)
 
 <br>
 <br>
@@ -87,6 +103,10 @@
 <img src = "https://user-images.githubusercontent.com/73464584/158545393-4d6b4559-8466-49c7-8334-ec405fe478c6.png"  width = "60%" height = "60%">
 
 <br>
+
+[[ code ]](https://github.com/jyajoo/Study/tree/main/html-css/7)
+
+<br>
 <br>
 
 ## 프로필
@@ -96,6 +116,10 @@
 <br>
 
 <img src = "https://user-images.githubusercontent.com/73464584/158545637-82668c68-5052-4d33-a256-940b7d432ceb.png" width = "30%" height = "30%">
+
+<br>
+
+[[ code ]](https://github.com/jyajoo/Study/tree/main/html-css/9-10)
 
 <br>
 <br>
@@ -117,6 +141,11 @@
 <img src = "https://user-images.githubusercontent.com/73464584/158546347-0c37713c-914d-4f1b-9e08-37cb10b3eb62.png" width = "30%" height = "30%">
 
 <br>
+
+[[ code ]](https://github.com/jyajoo/Study/tree/main/html-css/11)
+
+
+<br>
 <br>
 
 ## 검색창
@@ -136,6 +165,10 @@
 <img src = "https://user-images.githubusercontent.com/73464584/158546752-ba34e7c5-d918-4cd7-9029-c2e93391cb22.png" width = "40%" height = "40%">
 
 <br>
+
+[[ code ]](https://github.com/jyajoo/Study/tree/main/html-css/14-15)
+
+<br>
 <br>
 
 ## 덕담 공유
@@ -147,3 +180,7 @@
 [스파르타 덕담 공유 패키지](https://spartacodingclub.kr/online/special/deokdam)
 
 (생략!)
+
+<br>
+
+[[ code ]](https://github.com/jyajoo/Study/tree/main/html-css/words%20of%20blessing)
