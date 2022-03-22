@@ -2,7 +2,7 @@ body {
     width: 100vw;
     height: 45vh;
     max-width : 450px;
-    background-image: url(/Web-Javascript/ChatBot/snoopy.webp);
+    background-image: url("/ChatBot/snoopy.webp");
     background-position: center;
     background-size: cover;
     margin : auto;
@@ -32,6 +32,12 @@ button {
     font-size: 60px;
     font-weight: bold;
     color: rgb(87, 86, 173);    
+    transition-duration: 0.3s;
+    box-shadow: 7px 6px 1px #7d81bb;
+}
+
+button:active{
+	box-shadow: none;
 }
 
 .speech-bubble {
@@ -85,4 +91,19 @@ button {
 	border-bottom: 0;
 	margin-top: -22.5px;
 	margin-left: -45px;
+}
+
+input {
+    position : absolute;
+    width : 500px;
+    height: 180px;
+    top : 5px;
+    left : calc(50% - 255px);
+    border : 0;
+    font-size: 40px;
+    font-family: 'Gamja Flower', cursive;
+}
+
+input:focus {
+    outline: none;
 }
