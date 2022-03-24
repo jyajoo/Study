@@ -19,7 +19,7 @@ body {
     font-size: 40px;
 }
 
-button {
+.btn {
     width: 200px;
     height: 100px;
     position: relative;
@@ -36,7 +36,7 @@ button {
     box-shadow: 7px 6px 1px #7d81bb;
 }
 
-button:active{
+.btn:active{
 	box-shadow: none;
 }
 
@@ -106,4 +106,42 @@ input {
 
 input:focus {
     outline: none;
+}
+
+.keyword {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top : 20px;
+    left : 1000px;
+    border-radius: 2em;
+    border : 5px solid rgb(87, 86, 173);
+    background : #7DA8E4;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(87, 86, 173);    
+    transition-duration: 0.3s;
+    box-shadow: 7px 6px 1px #7d81bb;
+}
+
+.keyword:hover {
+	box-shadow: none;
+}
+
+.keyword:hover ~ .keyBox {
+    visibility: visible;
+}
+
+.keyBox {
+    width: 200px;
+    height: 300px;
+    border : 5px solid #7d81bb;
+    position: absolute;
+    top : 100px;
+    right : 100px;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 30px;
+    text-align: center;
+    visibility: hidden;
 }
