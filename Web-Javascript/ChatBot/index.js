@@ -16,7 +16,7 @@ function check_text() {
     else if (value.includes("뭐해") || value.includes("뭐하고")) {
         chat[0].innerHTML = "하늘을 보고 있어~";
     }
-    else if (value == "안아줘") {
+    else if (value.includes("안아")) {
         if (n == 0) {
             chat[0].innerHTML = "그랭";
             body[0].style.backgroundImage = "url('/ChatBot/snoopy2.png')";
