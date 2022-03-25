@@ -109,11 +109,16 @@ input:focus {
 }
 
 .keyword {
+    position: relative;
+    left : 650px;
+}
+
+.word {
     width: 100px;
     height: 50px;
-    position: relative;
-    top : 20px;
-    left : 1000px;
+    position : absolute;
+    left : 300px;
+    top : 40px;
     border-radius: 2em;
     border : 5px solid rgb(87, 86, 173);
     background : #7DA8E4;
@@ -125,11 +130,11 @@ input:focus {
     box-shadow: 7px 6px 1px #7d81bb;
 }
 
-.keyword:hover {
+.word:hover {
 	box-shadow: none;
 }
 
-.keyword:hover ~ .keyBox {
+.word:hover ~ .keyBox {
     visibility: visible;
 }
 
@@ -137,11 +142,20 @@ input:focus {
     width: 200px;
     height: 270px;
     border : 5px solid #7d81bb;
-    position: absolute;
+    position : absolute;
+    left : 200px;
     top : 100px;
-    right : 100px;
     font-family: 'Gamja Flower', cursive;
     font-size: 30px;
     text-align: center;
     visibility: hidden;
+}
+
+#typed {
+    position : absolute;
+    top : 10px;
+    left : -40px;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 35px;
+    color : rgb(79, 78, 156);
 }
