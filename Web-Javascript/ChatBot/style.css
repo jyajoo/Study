@@ -159,3 +159,12 @@ input:focus {
     font-size: 35px;
     color : rgb(79, 78, 156);
 }
+
+#teach {
+    position : relative;
+    top : 300px;
+    right : 350px;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 35px;
+    color : rgb(79, 78, 156);
+}
