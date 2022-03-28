@@ -39,7 +39,7 @@
 
 모각코 활동으로, [< Web 메이트 - 자바스크립트 편 >](https://codemate.kr/project/WEB-메이트-자바스크립트-편 "모각코-코드메이트") 를 공부하고, 만들어본 웹 페이지 저장소 
 
-🔴진행 중
+[✅ 웹 페이지 구경가기](https://github.com/jyajoo/Study/blob/main/Web-Javascript/Web-Javascript.md)  
 
 <br>
   
