@@ -3,7 +3,6 @@ var iframe = document.getElementsByTagName('iframe');
 var movie = document.getElementsByClassName('movie');
 var content = document.getElementsByClassName('content');
 var a = document.getElementsByTagName('a');
-var button = document.getElementsByTagName('button');
 
 function one() {
     poster[0].src = "poster/weather child.jpg";
