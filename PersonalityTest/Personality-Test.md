@@ -21,4 +21,4 @@
 
 <br>
 
-<img src = "https://user-images.githubusercontent.com/73464584/174506679-8579252e-91d2-47a2-a944-32c8c2745408.gif" width = "60%" height = "60%">
+<img src = "https://user-images.githubusercontent.com/73464584/174506679-8579252e-91d2-47a2-a944-32c8c2745408.gif" width = "40%" height = "40%">
