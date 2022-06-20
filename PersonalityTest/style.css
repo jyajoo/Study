@@ -43,7 +43,7 @@ button, h2, #explain{
 
 body{
     background-color: #CEE5D0;
-    max-width: 450px;
+    max-width: 360px;
     margin: auto;
 }
 
@@ -73,7 +73,7 @@ button:active {
 }
 
 .main-dog {
-    max-width: 385px;
+    max-width: 320px;
     margin : 0 auto;
     margin-top: 10%;
 }
@@ -171,4 +171,9 @@ article {
 
 .banner-img{
     width : 300px;
+}
+
+.kakao {
+    width: 320px;
+    margin: 0 auto;
 }

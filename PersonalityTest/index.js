@@ -42,7 +42,7 @@ function start() {
     $(".start").hide();
     $(".question").show();
     $(".banner").hide();
-    $(".kakao_ad_area").hide();
+    $(".kakao").hide();
     next();
 }
 
@@ -71,7 +71,7 @@ function next() {
         $("#dog").html(result[mbti]["dog"])
         $("#explain").html(result[mbti]["explain"])
         $(".banner").show();
-        $(".kakao_ad_area").show();
+        $(".kakao").show();
 
     } else {
         $(".progress-bar").attr("style", "width : calc(100/12*" + num + "%)");
