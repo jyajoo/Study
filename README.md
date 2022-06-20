@@ -34,10 +34,20 @@
 
 ---
   
-  <br>
+<br>
 
 모각코 활동으로, [< Web 메이트 - 자바스크립트 편 >](https://codemate.kr/project/WEB-메이트-자바스크립트-편 "모각코-코드메이트") 를 공부하고, 만들어본 웹 페이지 저장소 
 
 [✅ 웹 페이지](https://github.com/jyajoo/Study/blob/main/Web-Javascript/Web-Javascript.md)  
 
 <br>
+
+## 🌐PersonalityTest
+
+---
+
+<br>
+
+[< 실검에 오르는 세렝게티 동물 테스트 >](https://www.codelion.net/catalog/Q291cnNlTm9kZTpqbW9r) 코드라이언 강의를 수강하여, 직접 만들어본 MBTI 테스트
+
+[✅ 웹 페이지](https://github.com/jyajoo/Study/blob/main/PersonalityTest/Personality-Test.md)
