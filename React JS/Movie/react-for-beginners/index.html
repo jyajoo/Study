@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html>
-<body>
+  <body>
     <div id="root"></div>
-</body>
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script>
-        const root = document.getElementById("root");
-        const span = React.createElement(
-            "span", 
-            {id : "sexy-span", style : {color : "red"}}, 
-            "Hello I'm a span"
-            );
-        ReactDOM.render(span, root)
-    </script>
+  </body>
+  <script
+    crossorigin
+    src="https://unpkg.com/react@18/umd/react.development.js"
+  ></script>
+  <script
+    crossorigin
+    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+  ></script>
+  <script>
+    const root = document.getElementById("root");
+    const h3 = React.createElement(
+      "h3",
+      {
+        onMouseEnter: () => console.log("mouse enter"),
+      },
+      "Hello I'm a h3"
+    );
+
+    const button = React.createElement(
+      "button",
+      {
+        onClick: () => console.log("im clicked"),
+      },
+      "Click me"
+    );
+    const container = React.createElement("div", null, [h3, button]);
+    ReactDOM.render(container, root);
+  </script>
 </html>
