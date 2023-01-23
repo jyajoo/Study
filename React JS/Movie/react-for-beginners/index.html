@@ -11,24 +11,38 @@
     crossorigin
     src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
   ></script>
-  <script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script type="text/babel">
     const root = document.getElementById("root");
-    const h3 = React.createElement(
-      "h3",
-      {
-        onMouseEnter: () => console.log("mouse enter"),
-      },
-      "Hello I'm a h3"
+    // const h3 = React.createElement(
+    //   "h3",
+    //   {
+    //     onMouseEnter: () => console.log("mouse enter"),
+    //   },
+    //   "Hello I'm a h3"
+    // );
+    const Title = (
+      <h3 id="title" onMouseEnter={() => console.log("mouse enter")}>
+        Hello I'm a h3
+      </h3>
     );
 
-    const button = React.createElement(
-      "button",
-      {
-        onClick: () => console.log("im clicked"),
-      },
-      "Click me"
+    // const button = React.createElement(
+    //   "button",
+    //   {
+    //     onClick: () => console.log("im clicked"),
+    //   },
+    //   "Click me"
+    // );
+    const Button = (
+      <button
+        style={{ backgroundColor: "tomato" }}
+        onClick={() => console.log("im clicked")}
+      >
+        Click me
+      </button>
     );
-    const container = React.createElement("div", null, [h3, button]);
-    ReactDOM.render(container, root);
+    const container = React.createElement("div", null, [Title, Button]);
+    ReactDOM.createRoot(root).render(container);
   </script>
 </html>
