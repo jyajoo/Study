@@ -14,6 +14,12 @@ function App() {
     setTodo("");
   };
   console.log(todos);
+  const deleteTodo = (index) => {
+    setTodos((currentArray) =>
+      currentArray.filter((_, currentIndex) => currentIndex !== index)
+    );
+    console.log("delete");
+  };
   return (
     <div>
       <h1>My To Dos({todos.length})</h1>
@@ -28,7 +34,10 @@ function App() {
       </form>
       <hr></hr>
       {todos.map((todo, index) => (
-        <li key={index}>{todo}</li>
+        <li key={index}>
+          {todo}
+          <button onClick={() => deleteTodo(index)}>❌</button>
+        </li>
       ))}
     </div>
   );
