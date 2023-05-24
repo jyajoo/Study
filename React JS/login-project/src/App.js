@@ -16,7 +16,7 @@ import { recoilPersist } from "recoil-persist";
 
 // 화면 이동
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
   NavLink,
@@ -34,12 +34,27 @@ import axios from "axios";
 // 클래스이름 동적 변경에 편리함
 import classNames from "classnames";
 
+import AccountLoginPage from "./routes/AccountLoginPage";
+import Header from "./components/Header";
+import HomeMainPage from "./routes/HomeMainPage";
+
 const persistAtom = recoilPersist();
 const axiosInstance = axios.create();
 const queryClient = new QueryClient();
 
 function App() {
-  return <div>모든 것 로딩 완료</div>;
+  return (
+    <div>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/account/login" element={<AccountLoginPage />} />
+          <Route path="/home/main" element={<HomeMainPage />} />
+          <Route path="*" element={<Navigate to="/home/main" />} />
+        </Routes>
+      </Router>
+    </div>
+  );
 }
 
 ReactDOM.render(
