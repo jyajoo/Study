@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "IBM Plex Sans KR";
+  src: url("./fonts/IBMPlexSansKR-Regular.ttf");
+}
+
+html > body {
+  font-family: "IBM Plex Sans KR";
+  text-underline-position: under;
+}
+
+#root {
+  min-height: 100vh;
+}

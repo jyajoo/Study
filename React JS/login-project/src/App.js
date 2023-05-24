@@ -38,6 +38,12 @@ import AccountLoginPage from "./routes/AccountLoginPage";
 import Header from "./components/Header";
 import HomeMainPage from "./routes/HomeMainPage";
 
+// 부트스트랩
+import "bootstrap/dist/css/bootstrap.min.css";
+
+// css
+import styles from "./css/App.module.css";
+
 const persistAtom = recoilPersist();
 const axiosInstance = axios.create();
 const queryClient = new QueryClient();
