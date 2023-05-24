@@ -1,6 +1,6 @@
 // 리액트 기본 설정
 import React, { useState, useEffect } from "react";
-import { ReactDOM } from "react";
+import ReactDOM from "react-dom";
 
 // 상태 관리, 전역 변수 관리, 컴포넌트간 데이터 공유
 import {
@@ -35,8 +35,8 @@ import axios from "axios";
 import classNames from "classnames";
 
 const persistAtom = recoilPersist();
-const queryClient = new QueryClient();
 const axiosInstance = axios.create();
+const queryClient = new QueryClient();
 
 function App() {
   return <div>모든 것 로딩 완료</div>;
