@@ -31,6 +31,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 // css
 import styles from "./css/App.module.css";
+import AccountJoinPage from "./routes/AccountJoinPage";
 
 const persistAtom = recoilPersist();
 const axiosInstance = axios.create();
@@ -43,6 +44,7 @@ function App() {
         <Routes>
           <Route path="/account/login" element={<AccountLoginPage />} />
           <Route path="/home/main" element={<HomeMainPage />} />
+          <Route path="/home/join" element={<AccountJoinPage />} />
           <Route path="*" element={<Navigate to="/home/main" />} />
         </Routes>
       </Router>
