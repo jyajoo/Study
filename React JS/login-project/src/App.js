@@ -36,6 +36,11 @@ import AccountJoinPage from "./routes/AccountJoinPage";
 const persistAtom = recoilPersist();
 const axiosInstance = axios.create();
 
+const CONFIG = {};
+CONFIG.API_BASE = "http://localhost:8080";
+CONFIG.API_LOGIN = `${CONFIG.API_BASE}/account/login`;
+CONFIG.API_JOIN = `${CONFIG.API_BASE}/account/join`;
+
 function App() {
   return (
     <div>
